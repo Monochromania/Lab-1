@@ -1,9 +1,5 @@
 public class Reduce {
     public static int main(int n){
-        System.out.println(getReduction(n));
-    }
-
-    public static int getReduction(int n){
         int count = 0;
         while(n != 0){
             //Even
