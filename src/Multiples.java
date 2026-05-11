@@ -1,14 +1,16 @@
 public class Multiples {
-    static void main() {
-        int count = 0;
+    static int main(int limit, int a, int b) {
+        int nums = 0;
 
-        for(int i = 1; i < 1000; i ++){
-            if(i % 3 == 0 || i % 5 == 0){
-                count ++;
+        for(int i = 1; i < limit; i ++){
+            if(i % a == 0 || i % b == 0){
+                nums ++;
             }
         }
+        return nums;
+    }
 
-        System.out.println(count);
-        System.out.println(999/3 + 999/5 - 999/15);
+    public static int main(){
+       return main(1000, 3, 5);
     }
 }

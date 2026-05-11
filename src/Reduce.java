@@ -1,6 +1,6 @@
 public class Reduce {
-    public static void main(){
-        System.out.println(getReduction(100));
+    public static int main(int n){
+        System.out.println(getReduction(n));
     }
 
     public static int getReduction(int n){
